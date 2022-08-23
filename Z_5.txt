@@ -1,0 +1,8 @@
+Zadanie5
+(jeden punkt)
+Napisz program rozpoznający, jaką cyfrę wczytał użytkownik. Użyj instrukcji swich case. Cyfra wczytywana,
+jako liczba naturalna. Gdy wczytana jest nieistniejąca cyfro to komputera poinformuje poprzez komunikat „Taka
+cyfra nie istnieje‖. Gdy wczytana jest istniejąca cyfra to komputera poinformuje poprzez komunikat „Taka cyfra
+istnieje i jest nią cyfra np. zero‖.
+Zapewnij powtarzalność programu. Do powtarzalności użyj instrukcję gotoxy. Zmień instrukcje goto na skocz
+przy użyciu #define.

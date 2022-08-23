@@ -1,0 +1,7 @@
+Zadanie6
+(jeden punkt)
+Z użyciem pętli „do while” lub „while” napisz program wykonujący rozkład liczby na czynniki pierwsze.
+Podajemy liczbę naturalną i ukazuję się rozkład w formi jak poniżej:
+Dla liczby N=8778
+Na ekranie uzyskasz
+8778=2*3*7*11*19

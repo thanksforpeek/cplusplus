@@ -1,0 +1,42 @@
+#include <iostream> 
+#include <cmath>
+using namespace std;
+int main ()
+{
+    char ag;
+    do {
+    int AB;
+    int BC;
+    int AC;
+    int Ak;
+    int Bk;
+    cout << "Podaj kat A:" << endl;
+    cin >> Ak;
+    cout << "Podaj kat B" << endl;
+    cin >> Bk;
+    int Ck = 180 - (Ak + Bk);
+    cout << "Podaj strone AB" << endl;
+    cin >> AB;
+    cout << "Podaj strone BC" << endl;
+    cin >> BC;
+    cout << "Podaj strone AC" << endl;
+    cin >> AC;
+   	if (Bk == 90) 
+	{ cout<<"Ten trojkat jest prostokatny"<<endl;
+	}	
+	else if (AB == BC && BC == AC && AC == AB)
+	{ cout<<"Ten trojkat jest rownoboczny"<<endl;
+	}
+    else if (AB == BC && Ak == Ck)
+	{ cout<<"Ten trojkat jest rownoramienny"<<endl;
+	}
+	else if (AB != BC && BC != AC && BC != AB)
+	{ cout<<"Ten trojkat jest roznoboczny"<<endl;
+	}
+
+    cout << "Czyli jesli chcesz powtórzyc podaj litere 'j' lub 'J'" <<endl;
+    cin >> ag;
+    }
+    while (toupper(ag) == 'J', 'j');
+    system ("pause");   
+}

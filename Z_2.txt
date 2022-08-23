@@ -1,0 +1,8 @@
+Zadanie2 (jeden punkt)
+Komputer napisze:
+będę powtarzał program czyli napis gdy podacz liczbę z przedziału (-1,3>
+następnie zapyta:
+czy chcesz powtarzać część programu piszącą "SPRAWDZIAN ZADANIE2".
+Jeśli tak to podaj liczbę z przedziału (–1,3> jeśli nie to pozostałe liczby
+Następnie nastąpi wczytanie liczby.
+Następnie nastąpi powtórzenie napisu "SPRAWDZIAN ZADANIE2" lub wyście z programu.

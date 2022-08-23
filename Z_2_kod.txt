@@ -1,0 +1,22 @@
+#include <iostream> 
+#include <stdlib.h>
+using namespace std;
+int main ()
+{
+    double x;
+    start:
+    cout << "SPRAWDZIAN ZADANIE2" << endl;
+    cout << "Bede powtarzal program czyli napis gdy podacz liczbe z przedzialu -1,3>" << endl;
+    cout << "Podaj liczbe" << endl;
+    cin >> x;
+         if (x > -1.3) 
+         {
+            goto start;
+            }
+            else if (x < -1.3) 
+            {
+        cout <<"Liczba nie podana z przedzialu" << endl; 
+      }
+      
+    system ("pause");
+}

@@ -1,0 +1,10 @@
+Zadanie3
+(jeden punkt)
+Zostanie wyświetlone menu:
+1– obliczanie objętości walca
+2– obliczanie powierzchni całkowitej walca
+Wybór wariantu 1 lub 2 wykonanie obliczeń oraz wyprowadzenie wyników na monitor z podaniem jednostek
+czyli cm i cm^2.
+Sprawdzanie poprawności wczytanych danych:
+ numeru wariantu (powtórzenie MENU gdy numer jest nieprawidłowy)
+ danych liczbowych

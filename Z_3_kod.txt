@@ -1,0 +1,30 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    double r;
+    double h;
+    double variant;
+    cout << "1 – obliczanie objetosci walca" << endl;
+    cout << "2 – obliczanie powierzchni calkowitej walca" << endl;
+    cin >> variant;
+    if (variant == 1)
+    {
+    cout << "Podaj H" << endl;
+    cin >>  h;
+    cout << "Podaj R" << endl;
+    cin >> r;
+    double V = M_PI * pow (r, 2) * h;
+    cout <<"V = "<< V << endl ;            
+    }
+    else if (variant == 2)
+    {
+    cout << "Podaj H" << endl;
+    cin >>  h;
+    cout << "Podaj R" << endl;
+    cin >> r;
+    double S = 2 * M_PI * r * (h + r);
+    cout <<"S = "<< S << endl;
+    }           
+system ("pause");
+}

@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main ()
+{   
+    string answer1;
+    string answer2;
+    string answer3;
+	cout<<"Podaj numer dnia urodzenia+10"<<endl;
+	cin >> answer1;
+	cout<<"Podaj pierwszu literu imienia"<<endl;
+	cin >> answer2;
+	cout<<"Podaj pierwszu literu nazwiska"<<endl;
+	cin >> answer3;
+	if (answer1 == "18" && answer2 == "v" && answer3 == "c" )
+	{ cout<<"Brawo znasz moje parametry"<<endl;
+	}	
+	else 
+	{ cout<<"Nie znasz szyfru zegnaj"<<endl;
+	}
+	system("pause");
+}

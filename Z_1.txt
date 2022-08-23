@@ -1,0 +1,5 @@
+Zadanie1 (jeden punkt)
+Program będzie uruchamiany przez podanie kolejno : numeru dnia urodzenia+10, pierwszej litery imienia oraz
+pierwszej litery nazwiska. Wielkość liter nie będzie miała znaczenia
+– Gdy podany jest prawidłowo szyfr komputer napisze "Brawo znasz moje parametry"
+– Gdy szyfr jest nieprawidłowy komputer napisze "Nie znasz szyfru żegnaj".

@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int x;
+    start:
+    cout << "Podaj cyfre:" << endl;
+    cin >> x;
+    switch (x) { 
+    case 0:  
+    cout << "Taka cyfra istnieje i jest nia cyfra zero"; 
+    goto start;
+    case 1:
+    cout << "Taka cyfra istnieje i jest nia cyfra jeden" << endl; 
+    goto start;
+    case 2: 
+    cout << "Taka cyfra istnieje i jest nia cyfra dwa" << endl;
+    goto start;
+    case 3:  
+    cout << "Taka cyfra istnieje i jest nia cyfra trzy" << endl; 
+    goto start; 
+    case 4:  
+    cout << "Taka cyfra istnieje i jest nia cyfra cztery" << endl; 
+    goto start;
+    case 5:  
+    cout << "Taka cyfra istnieje i jest nia cyfra piec" << endl; 
+    goto start;
+    case 6:  
+    cout << "Taka cyfra istnieje i jest nia cyfra szesc" << endl; 
+    goto start;
+    case 7:  
+    cout << "Taka cyfra istnieje i jest nia cyfra siedem" << endl; 
+    goto start;
+    case 8:  
+    cout << "Taka cyfra istnieje i jest nia cyfra osiem" << endl; 
+    goto start;
+    case 9:  
+    cout << "Taka cyfra istnieje i jest nia cyfra dziewiec" << endl; 
+    goto start;
+    default: 
+    cout << "Taka cyfra nie istnieje" << endl;
+    break;
+}
+    system ("pause");       
+}

@@ -1,0 +1,6 @@
+Zadanie4
+(jeden punkt)
+Po wczytaniu wartości dwóch kątów program poda wartość trzeciego kąta i odpowie jaki to jest trójkąt
+(prostokątny, równoboczny, równoramienny, różnokątny).
+Zapewnij powtarzalność programu na literę „j" lub „J".
+Czyli jeśli chcesz powtórzyć podaj literę „j" lub „J".
